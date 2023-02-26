@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+<body>
+ <div class="container">
+    <div class="main">
+        <h1>Grade Calculator</h1>
+        <div class="b1">
+            <label >Comp</label>
+            <input id="bo1" type="number" name="" placeholder="marks">
+        </div>
+        <div class="b2">
+            <label >math</label>
+            <input id="bo2" type="number" name="" placeholder="marks">
+        </div>
+        <div class="b3">
+            <label >phy</label>
+            <input id="bo3" type="number" name="" placeholder="marks">
+        </div>
+        <div class="b4">
+            <label >Che</label>
+            <input id="bo4" type="number" name="" placeholder="marks">
+        </div>
+        <button id="btn" onclick="calculate()">calculate</button>
+    </div>
+    <div class="card">
+    <div class="ta" >
+        <table>
+            <h1 style="color:aqua;text-align: center;margin-bottom: 10px;">Result</h1>
+            <tr>
+                <td>Total marks:</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>obtained marks:&nbsp; </td>
+                <td id="sum"></td>
+            </tr>
+            <tr>
+                <td>percentage:</td>
+                <td id="per"></td>
+            </tr>
+            <tr>
+                <td>grade:</td>
+                <td id="gra"></td>
+            </tr>
+            <tr>
+                <td>pass/fail:</td>
+                <td id="pass"></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+ </div>
+  <script src="hello.js"></script>
+</body>
+</html>
